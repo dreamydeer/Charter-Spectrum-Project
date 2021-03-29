@@ -48,8 +48,9 @@ const CustomerPointsTable = ({customerData}) => {
         <DataTable
             title="Customer Points"
             columns={tableColumns}
-            data={tableData}g
+            data={tableData}
             pagination={true}
+            noHeader={true}
         />
     );
 }

@@ -6,6 +6,7 @@ import customerData from './customerData.json'
 const App = () => {
   return (
     <div className="App">
+      <h1>Customer Points</h1>
       <CustomerPointsTable customerData={customerData}/>
     </div>
   );
