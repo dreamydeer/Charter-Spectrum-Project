@@ -1,6 +1,8 @@
 # Charter Spectrum Project
 This is for an application to Charter Spectrum. It calculates reward points for customers based on their purchases. Customers receive 2 points for every dollar spent over $100 in each transaction, plus 1 point for every dollar spent over $50 in each transaction. Given a record of every transaction during a three month period, it calculates the reward points earned for each customer per month and total.
 
+This project uses react for the frontend and springboot to power the backend.
+
 A static version of this application can be viewed at http://customerdata.surge.sh/. 
 
 ## Build Instructions
